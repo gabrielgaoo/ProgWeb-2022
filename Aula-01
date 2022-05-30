@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>aula-2022-05-30</title>
+</head>
+
+<body>
+<p> 
+<!--perfil-->
+  <img src="http://www.abo-sc.org.br/wp-content/uploads/2017/06/img-perfil-masc2.png" alt="img" height="100px" >  
+  <!--fundo-->
+
+  <h1>aula prog web</h1>
+
+
+  <ul>
+  <li>primeiro</li>
+  <li>segundo</li>
+  <li>terceiro</li>
+  
+  </ul>
+  
+  <br>
+   <table>
+      <tr>
+       <th>company</th>
+       <th>contact</th>
+       <th>coutry</th>
+     </tr>
+     <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Ander</td>
+      <td>Germany</td>
+     </tr>
+   
+  </table>
+  
+    
+      
+   
+</body>
+
+</html>
