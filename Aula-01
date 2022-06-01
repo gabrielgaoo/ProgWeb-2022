@@ -1,43 +1,58 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>aula-2022-05-30</title>
-</head>
+    <meta charset = "utf-8">
+       <title>Aula-2022-05-30</title> 
+   <center>     
+ <img src ="C:\Users\Lenovo\Desktop\Aula-01\img\gg.jpeg"alt="img"height="100px"align="center"></>
+       </center>
+  <h1 style="color:red;"align ="center"><i>Gabriel Amorim Guimarães</i></h1>
+       <style>
+         table th,td {
+          border: 1px solid red;
+	    border-collapse:collapse;
+}</style>
+</head>  
+<body style="background-color:purple">
+         <h2 style="color:red;"align="center">sobre</h2>
+         <h4 style="color:red;"align= "center"> Sou estuante na area de TI estou aprendendo a desenvolver html e css </h4>
+            <center> <h3 style="color:red"> contato:</h3>  
+           <a href="https://www.instagram.com/gabriel_7ga/" style= "color:red">gabriel_7ga</a>
+         </center>
+         <h3 style="color:red">Aprendizados</h3>
+         
+      <ul style= "color:red">
+        <li>C</li>
+        <li>C# </li>
+        <li>php</li>
+        <li>java</li>
+    </ul>
+ <center>
+  <table>
+       <tr style="color:red">
+       <th>trabalhos</th>
+       <th>preços</th>
+       </tr>
+       <tr style= "color:red">
+  	   <td>formatar pc</td>
+ 	<td>40R$</td>
+      </tr>
+     <tr style="color:red">
+         <td>projeto em C</td>
+         <td>300R$</td>
+   	</tr>
+    <tr style="color:red">
+         <td>projeto em html</td>
+	       <td>500R$</td>
+   	</tr>
+   </table> 
+  </center>
+     <br>
+     <br> 
+      <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CSZB_6ag0a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+ 			
 
-<body>
-<p> 
-<!--perfil-->
-  <img src="http://www.abo-sc.org.br/wp-content/uploads/2017/06/img-perfil-masc2.png" alt="img" height="100px" >  
-  <!--fundo-->
 
-  <h1>aula prog web</h1>
-
-
-  <ul>
-  <li>primeiro</li>
-  <li>segundo</li>
-  <li>terceiro</li>
-  
-  </ul>
-  
-  <br>
-   <table>
-      <tr>
-       <th>company</th>
-       <th>contact</th>
-       <th>coutry</th>
-     </tr>
-     <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Ander</td>
-      <td>Germany</td>
-     </tr>
-   
-  </table>
-  
-    
-      
-   
 </body>
-
 </html>
