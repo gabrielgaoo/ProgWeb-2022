@@ -1,0 +1,31 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #cc7766 url('noise.png');
+}
+.container{
+
+    margin: 0 auto;
+     width: 960px;
+}
+.lugar{
+    border-color: #ccc #999 #ccc;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.lugar h2{
+    border-bottom: 1px dashed #5c6818;
+    margin: 0;
+}
+
+.lugar a{
+    color: #2c88a7;
+    text-decoration: none;
+   
+}
+a:hover{
+    color: white;
+    background: black;
+}
