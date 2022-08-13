@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Locais - Alegre/ES</title>
+    <link rel='stylesheet' href="estilo_01.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://alegre.es.gov.br/a-cidade/historia-lenda/">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://pt.wikipedia.org/wiki/Alegre_(Esp%C3%ADrito_Santo)">Informações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mapa.html">Mapa</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">A Lenda da Cadela Alegre</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Alegre Elevado a Município</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Os últimos Anos da Intendência</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">A Reforma Político Administrativas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Visita Presidencial e Eleições</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Um Pleito Sem Oposição</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">A Revolta da Xandoca</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">A Revolução de 1930</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">A Cidade no Estado Novo</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Surgimento da UFES</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">A Criação de Alegre</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Logo e Banner-->
+    <section class="showcase center-block">
+        <img class="logo img-responsive img-fluid" src="logo.png" alt="cidade">
+    </section>
+
+    <!--Seção Principal - GRID-->
+    <section>
+        <div class="row">
+            <!--Local 1-->
+            <div class="col-sm-12 col-xs-12">
+                <h1 class="local_title text-center">Mapa da Cidade</h1>
+                <div class="conteudo text-center">
+                    <iframe class="w3-mobile"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29845.447433604575!2d-41.55324855293933!3d-20.763722684656422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbbebc3e50e781f%3A0x7bb8edafd6ede49f!2sAlegre%2C%20ES%2C%2029500-000!5e0!3m2!1spt-BR!2sbr!4v1660175200110!5m2!1spt-BR!2sbr"
+                        width="70%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+    </section>
+    <!--Footer-->
+    <footer class="row">
+        <div class="col-sm-12">
+            <h2 class=""><strong>Entre em contato conosco!</strong></h2>
+            <form id="form" action="" class="text-center">
+                <div>
+                    <div>
+                        <label for="msg">Escreva sua mensagem:</label>
+                    </div>
+                    <div>
+                        <textarea class="" id="msg" name="msg" rows="10" cols="66"></textarea>
+                    </div>
+                </div>
+                <div class="in_local">
+                    <input class="" placeholder="E-mail" type="text" id="email" name="email"><br>
+                </div>
+                <div class="in_local">
+                    <input class="" placeholder="Nome" type="text" id="nome" name="nome"><br>
+                </div>
+                <div>
+                    <button class="enviar_button" type="button">Enviar</button>
+                </div>
+                <h6>Todos os direitos reservados &copy;</h6>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
