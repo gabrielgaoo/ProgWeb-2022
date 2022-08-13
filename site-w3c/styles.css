@@ -1,0 +1,84 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(3,160,179,1) 50%, rgba(0,27,144,1) 100%);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 240px;
+    padding: 5px;
+    margin: 10px;
+}
+
+textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+label {
+    color: white;
+}
+
+.w3-bar {
+    background: linear-gradient(90deg, rgba(3,160,179,1) 50%, rgba(0,27,144,1) 100%);
+    color: white;
+}
+
+.showcase {
+    background-image: url(img/cenario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.local_title {
+    color: rgba(3,160,179,1);
+    font-weight: bold;
+}
+
+.hamburger {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.local1 {
+    height: 100%;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+}
+
+.local2 {
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.in_local {
+    display: inline-block;
+}
+
+.enviar_button {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: rgba(3,160,179,1);
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}

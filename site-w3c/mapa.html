@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts Google Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!--W3.css-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--Estilo próprio-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Alegre - Site</title>
+</head>
+
+<body>
+    <!--Sidebar-->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Fechar &times;</button>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">A Lenda da Cadela Alegre</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">Alegre Elevado a Município</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">Os últimos Anos da Intendência</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">A Reforma Político Administrativa</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">Visita Presidêncial e Eleições</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">Um Pleito Sem Oposição</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">A Revolta da Xandoca</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">A Revolução de 1930</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">A Cidade no Estado Novo</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">Surgimento da UFES</a>
+        <a href="#" class="w3-bar-item w3-border-bottom w3-button">A Criação de Alegre</a>
+    </div>
+    <!--Barra de Navegação-->
+    <div class="w3-bar w3-mobile">
+        <button class="w3-button w3-bar-item w3-mobile" onclick="w3_open()">☰</button>
+        <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hover-white"><strong>Início</strong></a>
+        <a href="https://alegre.es.gov.br/a-cidade/historia-lenda/" class="w3-bar-item w3-button w3-mobile w3-hover-white"><strong>História</strong></a>
+        <a href="https://pt.wikipedia.org/wiki/Alegre_(Esp%C3%ADrito_Santo)" class="w3-bar-item w3-button w3-mobile w3-hover-white"><strong>Informações</strong></a>
+        <a href="mapa.html" class="w3-bar-item w3-button w3-mobile w3-hover-white"><strong>Mapa</strong></a>
+    </div>
+    <!--Logo e Banner-->
+    <section class="showcase w3-mobile w3-center">
+        <img class="w3-image" src="img/logo.png" width="40%">
+    </section>
+    <!--Seção Principal - GRID-->
+    <section>
+        <div class="w3-row">
+            <!--Local 1-->
+            <div class="w3-col s12 w3-mobile local2">
+                <h1 class="local_title w3-center">Mapa da Cidade</h1>
+                <div class="conteudo w3-center">
+                    <iframe class="w3-mobile"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29845.447433604575!2d-41.55324855293933!3d-20.763722684656422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbbebc3e50e781f%3A0x7bb8edafd6ede49f!2sAlegre%2C%20ES%2C%2029500-000!5e0!3m2!1spt-BR!2sbr!4v1660175200110!5m2!1spt-BR!2sbr"
+                        width="50%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="w3-row">
+            <div class="w3-col s12 w3-mobile">
+                <h2 class="w3-text-white"><strong>Entre em contato conosco!</strong></h2>
+                <div class="w3-center">
+                    <form action="">
+                        <div>
+                            <div>
+                                <label for="msg">Escreva sua mensagem:</label>
+                            </div>
+                            <div>
+                                <textarea class="w3-mobile" id="msg" name="msg" rows="10" cols="66"></textarea>
+                            </div>
+                        </div>
+                        <div class="in_local">
+                            <input class="w3-mobile" placeholder="E-mail" type="text" id="email" name="email"><br>
+                        </div>
+                        <div class="in_local">
+                            <input class="w3-mobile" placeholder="Nome" type="text" id="nome" name="nome"><br>
+                        </div>
+                        <div>
+                            <button class="enviar_button" type="button">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="w3-center w3-margin">
+            <p class="w3-text-white">Todos os direitos reservados &copy;</p>
+        </div>
+    </footer>
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
